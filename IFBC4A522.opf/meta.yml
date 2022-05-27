@@ -1,0 +1,79 @@
+id: IFBC4A522
+source: https://www2.hf.uio.no/polyglotta/index.php?page=library&bid=2
+source_file: null
+initial_creation_type: input
+imported: '2022-05-27T15:25:13.133258'
+last_modified: '2022-05-27T15:25:13.133271'
+parser: null
+source_metadata:
+  title: 'PP: Prajñāpāramitāhṛdaya'
+  language: sa
+  base:
+    f440C:
+      title: Title
+      base_file: f440C.txt
+      order: 1
+    f6115:
+      title: CI_Long §1
+      base_file: f6115.txt
+      order: 2
+    f882B:
+      title: CII_Long §2
+      base_file: f882B.txt
+      order: 3
+    fA329:
+      title: CII_Long §3
+      base_file: fA329.txt
+      order: 4
+    f7AD0:
+      title: CII_Long §4
+      base_file: f7AD0.txt
+      order: 5
+    f5D4C:
+      title: CIII_Long §5
+      base_file: f5D4C.txt
+      order: 6
+    f84EF:
+      title: CIV_Long §6
+      base_file: f84EF.txt
+      order: 7
+    f4DA4:
+      title: CV_Long §7
+      base_file: f4DA4.txt
+      order: 8
+    fE4C6:
+      title: CVI_Long §8
+      base_file: fE4C6.txt
+      order: 9
+    f111B:
+      title: CVII_Long §9
+      base_file: f111B.txt
+      order: 10
+    fF88F:
+      title: CVIII_Long §10
+      base_file: fF88F.txt
+      order: 11
+    fD88F:
+      title: CVIII_Long §11
+      base_file: fD88F.txt
+      order: 12
+    fBD53:
+      title: Colophon
+      base_file: fBD53.txt
+      order: 13
+  chapter_to_tile:
+    CI: Homage
+    CII: Short §1
+    CIII: Short §2
+    CIV: Short §3
+    CV: Short §4
+    CVI: Short §5
+    CVII: Short §6
+    CVIII: Short §7
+statistics: {}
+quality: {}
+copyright:
+  status: Unknown
+  notice: ''
+  info_url: null
+license: null

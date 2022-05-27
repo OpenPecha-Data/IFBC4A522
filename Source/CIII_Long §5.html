@@ -1,0 +1,459 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bibliotheca Polyglotta</title>
+<link rel='stylesheet' type='text/css' href='css/bp.css'>
+<link rel='stylesheet' type='text/css' href='css/diac_doc.css'>
+
+<link rel='stylesheet' type='text/css' href='css/imageGallery.css'>
+<link rel='stylesheet' type='text/css' href='css/ss.css'>
+	      <link rel='stylesheet' type='text/css' href='css/tree_menu.css'>
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<!--  <script type="text/javascript" src="js/jqModal.js"></script>-->
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/tree_menu.js"></script>
+<!-- <script src="js/analytics_tracking.js" type="text/javascript"></script> -->
+
+
+<!-- <script type="text/javascript" src="js/popupDivhandling.js"></script> -->
+<!--  <script type="text/javascript" src="jquery-latest.js"></script>
+<script type="text/javascript" src="js/jquery-imagegallery.js"></script>-->
+</head>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//vrtx.uio.no/js/analytics/v2/analytics.js','ga');
+
+ga('create', 'UA-86407471-1', 'auto');
+ga(function(tracker) {
+
+	// Modifies sendHitTask to hit ipproxy instead of http://www.google-analytics.com directly
+	tracker.set('sendHitTask', function(model) {
+		payload = model.get('hitPayload');
+		var xhr = new XMLHttpRequest();
+		xhr.open('GET', '//w3prod-ipproxy.uio.no/collect' +'?' + payload, true);
+		xhr.send();
+	});
+		ga('send', 'pageview');
+});
+</script>
+<body><div class='banner'></div><!-- banner --><div class='uiologo'>
+<a href='http://www.hf.uio.no/'><img src='https://www2.hf.uio.no/polyglotta/hfe.png' border='0'></a></div><!-- uiologo --><div class='clear'></div>
+<div class='smule_tittel'>
+<div class='brodsmuleboks'>You are here: <a href='/polyglotta/index.php' accesskey='1'> BP HOME</a> >  <a href='/polyglotta/index.php?page=library&amp;bid=2' accesskey='1'>TLB</a> > <a href='/polyglotta/index.php
+	?page=volume&amp;vid=1175' accesskey='1'>PP: Prajñāpāramitāhṛdaya</a> > fulltext</div><div class='clear'></div>
+<div class='headline'>PP: Prajñāpāramitāhṛdaya<div class='clear'></div></div><!-- headline -->
+</div><!-- smule_tittel -->
+<!--<div>-->
+
+<h2 class="trigger" id="tr_lang"><a  href="#">Choose languages</a></h2>
+<h2 class="trigger" id="tr_img"><a  href="#">Choose images, etc.</a></h2>
+
+
+<div id="toggle_container_lan">
+
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_lan.php" method="POST">
+
+<div style="float:left; width:auto; text-align:left; margin-left:20px;">
+<h5>Choose languages</h5>
+<ul>
+<input value="Choose all" type="button" onClick="markAll('tr')"><input value="Uncheck all" type="button" onClick="markNone('tr')">
+
+	<li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6280]" value="6280" id="lancheckbox" checked >Sanskrit: San short: Vaidya (1961)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6281]" value="6281" id="lancheckbox" checked >Sanskrit: San short: Conze (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6282]" value="6282" id="lancheckbox" checked >Sanskrit: San long: Vaidya (1961)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6283]" value="6283" id="lancheckbox" checked >Sanskrit: San long: Conze (1967)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6284]" value="6284" id="lancheckbox" checked >Chinese: Chi: Kumārajīva 鳩摩羅什 (402-412CE) T.250</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6285]" value="6285" id="lancheckbox" checked >Chinese: Chi: Xuanzang 玄奘 (649CE) T.251</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6286]" value="6286" id="lancheckbox" checked >Chinese: Chi: Dharmacandra 法月 (738CE) T.252</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6287]" value="6287" id="lancheckbox" checked >Chinese: Chi: Prajñā 般若 et al. (790CE) T.253</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6288]" value="6288" id="lancheckbox" checked >Chinese: Chi: Prajñācakra 智慧輪  (ca 750-760CE) T.254</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6289]" value="6289" id="lancheckbox" checked >Chinese: Chi: Fǎchéng  法成 (ca 820-840CE) T.255</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6290]" value="6290" id="lancheckbox" checked >Chinese: Chi: Dānapāla 施護 (1005CE) T.257</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6291]" value="6291" id="lancheckbox" checked >Tibetan: Tib: Dunhuang (8-9th century)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6292]" value="6292" id="lancheckbox" checked >Tibetan: Tib: Vimalamitra and Rin chen sde, Kg 21, shes phyin sna tshogs, ka</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6293]" value="6293" id="lancheckbox" checked >English: Eng: Beal (1865)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6294]" value="6294" id="lancheckbox" checked >English: Eng: Conze (1973)</label></li><li class="tip" title="Checkbox :: Enable text"><label class="f1_checkbox"><input type="checkbox" name="spraak_valg_ct_1175[6295]" value="6295" id="lancheckbox" checked >English: Eng: Conze (1973)</label></li><div style="clear:both"></div>
+<input type='submit' name='set_cookie' value='Save view'>
+<div style="clear:both"></div>
+
+</ul>
+<input type="hidden" name="vid" value="1175">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+</div>
+
+<div id="toggle_container_img">
+<form  id="tr"  name="Sprakvalg2" action="inc/set_cookie_img.php" method="POST">
+
+<div style="float:left; width:auto; text-align: left;">
+<h5>Choose display</h5>
+<ul>
+		
+	<li> 
+		<input type='checkbox' name='bilder' checked="checked" > Enable images
+	</li>
+	<li> 
+	<input type='checkbox' onclick="onOffCheckbox();" name='fotnoter' checked="checked"> Enable footnotes
+	<div id="pff" style="display:block" >
+	<ul>
+	<li><input type='radio' name='fotnote_valg'  value='show_a' checked> Show all footnotes</li>
+	<li><input type='radio' name='fotnote_valg'  value='show_h'  > Minimize footnotes</li>
+	</ul>
+	</li>
+	
+	</div>
+	<div style="float:left; width:20em; text-align: left; margin-left:120px ">
+	<div style="clear:both"></div>
+	<input type='submit' name='set_cookie' value='Save view'>
+	<div style="clear:both"></div>
+	</div>
+	
+</ul>
+<input type="hidden" name="vid" value="1175">
+<input type="hidden" name="page" value="fulltext">
+</form>
+</div>
+	
+
+
+
+</div>
+</div>
+
+<div class='sok'><form name='Sok' id='FormBlock' action='/polyglotta/index.php' method='get'>
+<input type='hidden' name='page' value='search'>
+<input type='hidden' name='bid' value='2'>
+<input type='hidden' name='vid' value='1175'>
+<div class='sokeboks'>
+<input name='sokefelt' id='sokeboks' type='text' size='30' value=''>
+<input type='submit' name='Sok' value='Search' id='nsubmit'>
+<div class='clear'></div><a class="diacbutton" id="diacbutton" href="#">Diacritica</a><a id="diac2button" class="diac2button"  href="#">Diacritica-help</a><a class="s2button" href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation:SearchHelp">Search-help</a><div class='diacritical' id='diacritical_sign'><div style="text-align: left; ">
+<table class = 'diacritica' width="200" border="1" cellpadding="1" cellspacing="1" id="diacritical">
+    <tbody>
+        <tr>
+            <td style="text-align: center; ">ā</td>
+            <td style="text-align: center; ">ī</td>
+            <td style="text-align: center; ">ū</td>
+            <td style="text-align: center; ">ṛ</td>
+            <td style="text-align: center; ">ṝ</td>
+            <td style="text-align: center; ">ḷ</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ḹ</td>
+            <td style="text-align: center; ">&rsquo;</td>
+            <td style="text-align: center; ">ṃ</td>
+            <td style="text-align: center; ">ḥ</td>
+            <td style="text-align: center; ">ṅ</td>
+            <td style="text-align: center; ">&ntilde;</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">ṭ</td>
+            <td style="text-align: center; ">ḍ</td>
+            <td style="text-align: center; ">ṇ</td>
+            <td style="text-align: center; ">ṣ</td>
+            <td style="text-align: center; ">ś</td>
+            <td style="text-align: center; ">ź</td>
+        </tr>
+        <tr>
+            <td style="text-align: center; ">&scaron;</td>
+            <td style="text-align: center; ">č</td>
+            <td style="text-align: center; ">ǰ</td>
+            <td style="text-align: center; ">&gamma;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+            <td style="text-align: center; ">&nbsp;</td>
+        </tr>
+    </tbody>
+</table>
+</div></div><!-- diacritical --><div id="ex3a" class="jqmDialog"><div>
+	<span style="font-size:12px;">Note on the transliteration:</span></div>
+<div>
+	<span style="font-size:12px;">The transliteration system of the BP/TLB is based on the Unicode/UTF-8 system. However, there may be difficulties with some of the letters &ndash; particularly on PC/Windows-based systems, but not so much on the Mac. We have chosen the most accepted older and traditional systems of transliteration against, e.g, Wylie for Tibetan, since with Unicode it is possible, in Sanskrit and Tibetan, etc., to represent one sound with one letter in almost all the cases (excepting Sanskrit and Tibetan aspirated letters, and Tibetan tsa, tsha, dza). We thus do not use the Wylie system which widely employs two letters for one sound (ng, ny, sh, zh etc.).</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">Important:</span></div>
+<div>
+	<span style="font-size:12px;">We ask you in particular to note the use of the &rsquo; apostrophe and not the &#39; representing the avagrāha in Sanskrit, and most important the &rsquo;a-chuṅ in Tibetan. On the Mac the &rsquo; is Alt-M.</span></div>
+<div>
+	&nbsp;</div>
+<div>
+	<span style="font-size:12px;">If you cannot find the letters on your key-board, you may click on the link &quot;Diacritica&quot; to access it for your search.</span></div>
+</div><!-- diacritical_doc --><div class='clear'></div><select name='searchmode'><option selected value='phrase'>Search for exact phrase</option>
+<option  value='phraseregex'>Search for exact phrase (regex)</option>
+<option  value='word'>Search for every word in one record</option>
+<option  value='free'>Search for every word fragment in one record</option>
+</select>
+<select name='context'>
+<option ($_GET[context]=="a" ? "selected" : "") value="a"> Search in all libraries</option><option selected value="bTLB">Search in TLB</option><option selected value="v1175">Search in PP: Prajñāpāramitāhṛdaya</option></select><div class='clear'></div><a class='sbutton' href='/polyglotta/index.php?page=asearch&amp;bid=2&amp;vid=1175'>Choose specific texts..</a><div class='clear'></div></div></form></div><!-- sok --><div class='clear'></div><!-- clear --><div id='dcr' class='divControlRead'><div class='venstrefulltekstfelt'><div class='bverknavn'><a href='/polyglotta/index.php?page=volume&amp;vid=1175'>PP: Prajñāpāramitāhṛdaya</a></div><table class="tlvl2">
+					<tr>
+						<td bgcolor="#ffffff"> &nbsp; &nbsp;
+						<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_7627.Verses41-58" border=0 hspace=2>
+						<a href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1175" class="ajax_tree0">Complete text</a>
+						</td>
+					</tr>
+				  </table><input type="hidden" name="tree_top_options" id="tree_top_options" value="154626.Title|154627.Homage|154629.Short§1|154633.Short§2|154635.Short§3|154637.Short§4|154639.Short§5|154641.Short§6|154643.Short§7|154646.Colophon|">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154626.Title" border=0 hspace=2><a id="href_154626.Title" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992990&level=1&cid=877602" class="ajax_tree0">Title
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154627.Homage','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154627.Homage" border=0 hspace=2><a id="href_154627.Homage" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992991&level=1&cid=877603" class="ajax_tree0">Homage
+</td></tr></table>
+<div style="display:none;"  id="div_154627.Homage">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154628.Long§1" border=0 hspace=2><a id="href_154628.Long§1" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992992&level=2&cid=877604" class="ajax_tree1">Long §1
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154629.Short§1','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154629.Short§1" border=0 hspace=2><a id="href_154629.Short§1" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992993&level=1&cid=877605" class="ajax_tree0">Short §1
+</td></tr></table>
+<div style="display:none;"  id="div_154629.Short§1">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154630.Long§2" border=0 hspace=2><a id="href_154630.Long§2" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992993&level=2&cid=877605" class="ajax_tree1">Long §2
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154631.Long§3" border=0 hspace=2><a id="href_154631.Long§3" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992994&level=2&cid=877606" class="ajax_tree1">Long §3
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154632.Long§4" border=0 hspace=2><a id="href_154632.Long§4" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992995&level=2&cid=877607" class="ajax_tree1">Long §4
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154633.Short§2','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154633.Short§2" border=0 hspace=2><a id="href_154633.Short§2" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992996&level=1&cid=877608" class="ajax_tree0">Short §2
+</td></tr></table>
+<div style="display:none;"  id="div_154633.Short§2">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154634.Long§5" border=0 hspace=2><a id="href_154634.Long§5" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992996&level=2&cid=877608" class="ajax_tree1">Long §5
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154635.Short§3','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154635.Short§3" border=0 hspace=2><a id="href_154635.Short§3" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992998&level=1&cid=877609" class="ajax_tree0">Short §3
+</td></tr></table>
+<div style="display:none;"  id="div_154635.Short§3">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154636.Long§6" border=0 hspace=2><a id="href_154636.Long§6" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992998&level=2&cid=877609" class="ajax_tree1">Long §6
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154637.Short§4','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154637.Short§4" border=0 hspace=2><a id="href_154637.Short§4" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992999&level=1&cid=877610" class="ajax_tree0">Short §4
+</td></tr></table>
+<div style="display:none;"  id="div_154637.Short§4">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154638.Long§7" border=0 hspace=2><a id="href_154638.Long§7" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1992999&level=2&cid=877610" class="ajax_tree1">Long §7
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154639.Short§5','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154639.Short§5" border=0 hspace=2><a id="href_154639.Short§5" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993004&level=1&cid=877611" class="ajax_tree0">Short §5
+</td></tr></table>
+<div style="display:none;"  id="div_154639.Short§5">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154640.Long§8" border=0 hspace=2><a id="href_154640.Long§8" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993004&level=2&cid=877611" class="ajax_tree1">Long §8
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154641.Short§6','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154641.Short§6" border=0 hspace=2><a id="href_154641.Short§6" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993005&level=1&cid=877612" class="ajax_tree0">Short §6
+</td></tr></table>
+<div style="display:none;"  id="div_154641.Short§6">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154642.Long§9" border=0 hspace=2><a id="href_154642.Long§9" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993005&level=2&cid=877612" class="ajax_tree1">Long §9
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<a href="javascript:;" onclick="Expand('154643.Short§7','0','1')"><img src="./application/class/images/collapsed.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="img_154643.Short§7" border=0 hspace=2><a id="href_154643.Short§7" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993008&level=1&cid=877613" class="ajax_tree0">Short §7
+</td></tr></table>
+<div style="display:none;"  id="div_154643.Short§7">
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154644.Long§10" border=0 hspace=2><a id="href_154644.Long§10" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993008&level=2&cid=877613" class="ajax_tree1">Long §10
+</td></tr></table>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+ &nbsp;  &nbsp; <img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154645.Long§11" border=0 hspace=2><a id="href_154645.Long§11" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993012&level=2&cid=877614" class="ajax_tree1">Long §11
+</td></tr></table>
+</div>
+<table class="tlvl2"><tr><td bgcolor="#ffffff">
+<img src="./application/class/images/expanded.gif" alt="Click to Expand/Collapse Option" title="Click to Expand/Collapse Option" id="expand_154646.Colophon" border=0 hspace=2><a id="href_154646.Colophon" href="/polyglotta/index.php?page=fulltext&view=fulltext&vid=1175&mid=1993016&level=1&cid=877615" class="ajax_tree0">Colophon
+</td></tr></table>
+<script language=javascript>test('154634.Long§5|154633.Short§2|')</script><div class='bverknavn'><a href='/polyglotta/index.php?page=library&amp;bid=2'>Back to library</a></div></div><!-- venstrefulltekstfelt --><div class="clear"></div><!-- clear --><div id="nav-menu"><ul>
+  		  <li  id="nav-1"><a class="tabValgt" href="/polyglotta/index.php?page=record&amp;view=record&amp;vid=1175&amp;mid=1992996&amp;level=2">Sentence by sentence view</a></li>
+  		  <li  id="nav-2"><a  href="/polyglotta/index.php?page=fulltext&amp;view=fulltext&amp;vid=1175&amp;cid=877608&amp;mid=1992996&amp;level=2">Continuous text view</a></li>
+ 		<li  id="nav-3"><a  href="/polyglotta/admin/index.php?page=fulltext&amp;view=fulltext&amp;vid=1175&amp;cid=877608&amp;mid=1992996&amp;level=2">View in admin</a></li>
+
+  		  </ul></div><div class='clear'></div><!-- clear -->			<script language="javascript" type="text/javascript">
+			var kilderef = '';
+			var tekstid = 0;
+			var tekstid_bilder = 0;
+			var filsti = '';
+			var thumbnail = '';
+			</script>
+		<div class='infofulltekstfelt'><div class='BolkContainer'><div class='textvar' style='width:5.25%;'><div class='Sanskrit'><div class='kilderef' id='8959252'></div><div class='clear'></div><span id='8959252bi' class='paragraph'>
+							iha śāriputra rūpaṃ śūnyatā, śūnyataiva rūpam |&nbsp;</span><span id='8959253bi' class='paragraph'>
+						 rūpān na pṛthak śūnyatā, śūnyatāyā na pṛthag rūpam | yad rūpaṃ sā śūnyatā, yā śūnyatā tad rūpam ||&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Sanskrit'><div class='kilderef' id='8959280'></div><div class='clear'></div><span id='8959280bi' class='paragraph'>
+							III. iha śāriputra rūpaṁ śūnyatā śūnyataiva rūpam&nbsp;</span><span id='8959281bi' class='paragraph'>
+						 rūpān na pṛthak śūnyatā śūnyatāyā na pṛthag rūpam yad rūpaṃ sā śūnyatā yā śūnyatā tad rūpaṃ.&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Sanskrit'><div class='kilderef' id='8959308'></div><div class='clear'></div><span id='8959308bi' class='paragraph'>
+							- yaḥ kaścic chāriputra kulaputro va kuladuhitā vā [asyāṃ] gambhīrāyāṃ prajñāpāramitāyāṃ caryāṃ cartukāmaḥ, tenaivaṃ vyavalokitavyam - pañca skandhāṃs tāṃś ca svabhāvaśūnyān samanupaśyati sma |&nbsp;</span><span id='8959309bi' class='paragraph'>
+						 rūpaṃ śūnyatā, śūnyataiva rūpam | rūpān na pṛthak śūnyatā, śūnyatāyā na pṛthag rūpam | yad rūpaṃ sā śūnyatā, yā śūnyatā tad rūpam |&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Sanskrit'><div class='kilderef' id='8959336'></div><div class='clear'></div><span id='8959336bi' class='paragraph'>
+							(yaḥ kaścic Chāriputra kulaputro vā kuladuhitā vā asyāṃ gambhirāyāṃ prajñāpāramitāyāṃ caryāṃ cartukāmas tenaivaṃ vyavalokitavyam.)&nbsp;</span><span id='8959337bi' class='paragraph'>
+						 &nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959364'></div><div class='clear'></div><span id='8959364bi' class='paragraph'>
+							&nbsp;</span><span id='8959365bi' class='paragraph'>
+						 舍利弗色空故無惱壞相。受(12)空故無受相。想空故無知相。行空故無作相。(13)。何以故。舍利弗非色異空。非(14)空異色。色即是空。空即是色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959392'></div><div class='clear'></div><span id='8959392bi' class='paragraph'>
+							&nbsp;</span><span id='8959393bi' class='paragraph'>
+						 舍利子。色不異空。空不(8)異色。色即是空。空即是色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959420'></div><div class='clear'></div><span id='8959420bi' class='paragraph'>
+							善哉善(18)哉具大悲者。聽汝所説。與諸衆生作大光明。(19)於是觀自在菩薩摩訶薩蒙佛聽許。佛所護(20)念。入於慧光三昧正受。入此定已。以三昧力(21)行深般若波羅蜜多時。照見五蘊自性皆空。(22)彼了知五蘊自性皆空。從彼三昧安詳而起。(23)即告慧命舍利弗言。&nbsp;</span><span id='8959421bi' class='paragraph'>
+						 善男子。菩薩有般若波(24)羅蜜多心。名普遍智藏。汝今諦聽善思念之。(25)吾當爲汝分別解説。作是語已。慧命舍利弗(26)白觀自在菩薩摩訶薩言。唯大淨者。願爲説(27)之。今正是時。於斯告舍利弗。諸菩薩摩訶薩(28)應如是學。色性是空空性是色。色不異空空(29)不異色。色即是空空即是色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959448'></div><div class='clear'></div><span id='8959448bi' class='paragraph'>
+							(5)舍利子。若善男子善女人行甚深般若波羅(6)蜜多行時。應觀五蘊性空。&nbsp;</span><span id='8959449bi' class='paragraph'>
+						 舍利子。色不異空(7)空不異色。色即是空空即是色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959476'></div><div class='clear'></div><span id='8959476bi' class='paragraph'>
+							舍利子。若有善(19)男子。善女人。行甚深般若波羅蜜多行時。(20)應照見五蘊自性皆空。離諸苦厄。&nbsp;</span><span id='8959477bi' class='paragraph'>
+						 舍利子。色(21)空。空性見色。色不異空。空不異色。是色即(22)空。是空即色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959504'></div><div class='clear'></div><span id='8959504bi' class='paragraph'>
+							若善男子及善女人。欲修(3)行甚深般若波羅蜜多者。彼應如是觀察。五(4)蘊體性皆空。&nbsp;</span><span id='8959505bi' class='paragraph'>
+						 色即是空。空即是色。色不異空。(5)空不異色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Chinese'><div class='kilderef' id='8959532'></div><div class='clear'></div><span id='8959532bi' class='paragraph'>
+							汝(18)今諦聽爲汝宣説。若善男子善女人。樂欲修(19)學此甚深般若波羅蜜多法門者。當觀五蘊(20)自性皆空。何名五蘊自性空耶。&nbsp;</span><span id='8959533bi' class='paragraph'>
+						 所謂即色是(21)空即空是色。色無異於空。空無異於色。&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Tibetan'><div class='kilderef' id='8959560'></div><div class='clear'></div><span id='8959560bi' class='paragraph'>
+							de ni sha ri ’ï&nbsp;</span>					<script language="javascript" type="text/javascript">
+
+					tekstid_bilder = "8959560";
+
+					filsti = "public/media/img_to_txt/1647107441.jpg";
+
+					thumbnail = "public/media/img_to_txt/th_1647107441.jpg";
+					
+					$('#'+tekstid_bilder+'bi').append('<span class="bildediv" id=image><a href="' + filsti +'" TARGET="_blank"><img src="' + thumbnail +'" alt="Picture"></a></span>');
+
+					</script>
+					<span id='8959561bi' class='paragraph'>
+						 gzugs stong pa nyid de || stong pa nyid kyang gzug (4) so || gz[ug]s dang stong pa nyid tha dad pa yang ma yin || gzugs dang tha myi dad do || gag gzugs pa de stong pa nyid || gag stong pa nyid pa de gzug te ||&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='Tibetan'><div class='kilderef' id='8959588'></div><div class='clear'></div><span id='8959588bi' class='paragraph'>
+							sh’a ri’i bu rigs kyi bu’am | rigs kyi bu mo gang la la shes rab kyi pha rol tu phyin pa zab mo spyod pa spyad par ’dod pa des ’di ltar rnam par blta bar bya ste | phung po lnga po de dag kyang rang bzhin gyis stong (5) par rnam par yang dag par rjes su blta’o ||&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8959588";
+							kilderef = "Hṛd Tib: Vimalamitra and Rin chen sde, Kg 21, shes phyin sna tshogs, ka 145a4-5  - Tib: Vimalamitra and Rin chen sde, Kg 21, shes phyin sna tshogs, ka ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+										<script language="javascript" type="text/javascript">
+
+					tekstid_bilder = "8959588";
+
+					filsti = "public/media/img_to_txt/1647101021.png";
+
+					thumbnail = "public/media/img_to_txt/th_1647101021.png";
+					
+					$('#'+tekstid_bilder+'bi').append('<span class="bildediv" id=image><a href="' + filsti +'" TARGET="_blank"><img src="' + thumbnail +'" alt="Picture"></a></span>');
+
+					</script>
+					<span id='8959589bi' class='paragraph'>
+						 gzugs stong pa’o || stong pa nyid gzugs so || gzugs las stong pa nyid gzhan ma yin | stong pa nyid las kyang gzugs gzhan ma yin no ||&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='English'><div class='kilderef' id='8959616'></div><div class='clear'></div><span id='8959616bi' class='paragraph'>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8959616";
+							kilderef = "Hṛd Eng: Beal (1865)  - Eng: Beal (1865) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					<span id='8959617bi' class='paragraph'>
+						 Śāriputra (The Rishi of the Sūtra). That which we call form (rūpa) is not different from that which we call space (ākāśa). Space is not different from form. Form is the same as space. Space is the same as form.&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='English'><div class='kilderef' id='8959644'></div><div class='clear'></div><span id='8959644bi' class='paragraph'>
+							II. Here, O Sariputra,&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8959644";
+							kilderef = "Hṛd Eng: Conze (1973) 142  - Eng: Conze (1973) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					<span id='8959645bi' class='paragraph'>
+						 II,1 form is emptiness and the very emptiness is form ;<br />II,2 emptiness does not differ from form, form does not differ from emptiness, <br />II,3 whatever is form, that is emptiness, whatever is emptiness, that is form,&nbsp;</span></div></div><div class='textvar' style='width:5.25%;'><div class='English'><div class='kilderef' id='8959672'></div><div class='clear'></div><span id='8959672bi' class='paragraph'>
+							«The son or daughter of good family who wants to course in the course of this deep perfection of wisdom should thus consider: «There are the five skandhas, and those he sees in their own-being as empty.&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "8959672";
+							kilderef = "Hṛd Eng: Conze (1973) 140  - Eng: Conze (1973) ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					<span id='8959673bi' class='paragraph'>
+						 Here, O Śāriputra, form is emptiness and the very emptiness is form; emptiness is no other than form, form is no other than emptiness; whatever is form that is emptiness, whatever is emptiness that is form.&nbsp;</span></div></div><div class='clear'></div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:5.25%;'><div class=''><span id='bi' class=''>
+							&nbsp;</span>							<script language="javascript" type="text/javascript">
+
+							tekstid = "";
+							kilderef = "  ";
+							$('#'+tekstid).text(kilderef);
+							</script>
+					</div></div><div class='clear'></div><div class='BolkContainer'><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div><div class='textvar' style='width:5.25%;'></div></div><div class='clear'></div><div class="fontboks"><a onClick=onOffdiv('permlink') name="permlink" href="#permlink">Permanent link</a></div><div class='clear'></div><div class='perm_felt' id='permlink'>http://www2.hf.uio.no/common/apps/permlink/permlink.php?app=polyglotta&amp;context=ctext&amp;uid=189663b5-a1f4-11ec-92a0-005056a97067</div></div></div><!-- infofelt --></div><!-- divControl --><div class="clear"></div>
+<div style="clear:both"></div><div class="signatur"><div class="signatur_left">
+		<a href="https://wiki.uio.no/hf/dmlf/index.php/Kategori:Polyglotta:Documentation">Go to Wiki Documentation</a></br>Enhet: <a HREF=http://www.hf.uio.no>Det humanistiske fakultet</a> &nbsp; Utviklet av: <a href="http://www.hf.uio.no/tjenester/it">IT-seksjonen ved HF</a></div><!--signatur_left -->
+		<div class="signatur_right"><a href="/polyglotta/admin/index.php">Login</a></div>
+		<div style="clear:both"></div></div>
+</body></html><SCRIPT LANGUAGE="JAVASCRIPT">
+	
+	$("#tr_IA").click(function(){
+	    if ($("#toggle_container_IA").is(':hidden'))
+	    	$("#toggle_container_IA").show();
+	    else{
+	        $("#toggle_container_IA").hide();
+	    }
+	    return false;
+		});
+
+	$("#tr_lang").click(function(){
+	    if ($("#toggle_container_lan").is(':hidden'))
+	    	$("#toggle_container_lan").show();
+	    else{
+	        $("#toggle_container_lan").hide();
+	    }
+	    return false;
+	});
+
+	$("#tr_img").click(function(){
+	    if ($("#toggle_container_img").is(':hidden'))
+	    	$("#toggle_container_img").show();
+	    else{
+	        $("#toggle_container_img").hide();
+	    }
+	    return false;
+	});
+
+	$("#diac2button").click(function(){
+	   if ($("#ex3a").is(':hidden')){
+		   $("#ex3a").show();
+	       $("#diac2button").html("Hide&#32Diacritica-help");
+	   }else{
+	       $("#ex3a").hide();
+	       $("#diac2button").html("Diacritica-help");
+	   }
+	   return false;
+	});
+
+	$("#diacbutton").click(function(){
+	   if ($("#diacritical_sign").is(':hidden')){
+		   	$("#diacritical_sign").show();
+	      	$("#diacbutton").html("Hide&#32diacritica");
+	   }else{
+	        $("#diacritical_sign").hide();
+	        $("#diacbutton").html("Diacritica");
+	   }
+	   return false;
+    });
+
+	$('#toggle_container_IA').click(function(e) {
+	   e.stopPropagation();
+	});
+
+	$('#toggle_container_lan').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#toggle_container_img').click(function(e) {
+        e.stopPropagation();
+    });
+
+	$('#ex3a').click(function(e) {
+	    e.stopPropagation();
+	});
+
+	$('#diacritical_sign').click(function(e) {
+        e.stopPropagation();
+    });
+
+	//Kode for å sette inn diakritiske tegn
+	$('#diacritical > tbody > tr > td').click(function() {
+	  	//alert('red');
+		$("#sokeboks").val($("#sokeboks").val() + $(this).text());
+	});
+
+	$('.diac2button').text(($('.diacbutton').text() == 'Diacritica-help') ? 'Hide Diacritica-help' : 'Diacritica-help');
+	
+	//Lukker alle åpnede pop'uper ved klikk på siden
+	$(document).click(function() {
+		$('#toggle_container_IA').hide();
+	    
+        $('#toggle_container_lan').hide();
+    
+        $('#toggle_container_img').hide();
+   
+   		$('#diacritical_sign').hide();
+   		$("#diacbutton").html("Diacritica");
+   
+       	$('#ex3a').hide();
+       	$("#diac2button").html("Diacritica-help");
+   });
+	</SCRIPT>
